@@ -1,5 +1,5 @@
 import pytest
-from calculadora import sumatoria
+from Sumador.calculadora import sumatoria
 
 def test_suma_tres_numeros():
     assert sumatoria("1, 2, 3") == 6
